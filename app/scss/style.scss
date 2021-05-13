@@ -249,5 +249,37 @@
 
 // end search
 
+// start items
 
+.items__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 185px 0;
+    &-box {
+        width: 361px;
+        min-height: 403px;
+        transition: all .5s;
+        &:hover {
+            box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+        }
+        img {
+            margin-top: 43px;
+            margin-bottom: 37px;
+        }
+        .box__title {
+            font-size: 24px;
+            color: #010101;
+            margin-bottom: 30px;
+        }
+        .box__text {
+            color: #555555;
+            width: 295px;
+            margin: 0 auto;
+        }
+    }
+}
+
+// end items
 
