@@ -256,7 +256,8 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    margin: 185px 0;
+    margin-top: 185px;
+    padding-bottom: 185px;
     &-box {
         width: 361px;
         min-height: 403px;
@@ -282,4 +283,191 @@
 }
 
 // end items
+
+// start slider
+
+.slider {
+    background-color: $gray;
+    &__inner {
+    padding: 120px 0;
+        &-title {
+            font-size: 30px;
+            color: #000;
+            background-color: #fff;
+            padding: 44px 30px;
+            border-radius: 4px;
+            box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+            margin-bottom: 50px;
+        }
+        &-item {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+.content {
+    &__img {
+        min-height: 450px;
+        min-width: 555px;
+        background-repeat: no-repeat;
+        display: block;
+        background-position: center;
+    }
+    &__inner {
+        background-color: #fff;
+        padding: 50px 50px 25px;
+        max-height: 450px;
+    }
+}
+
+.content__title {
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.content__author {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 35px;
+    .avatar {
+        width: 30px;
+        height: 30px;
+        background-position: center;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 14px;
+    }
+    a {
+        font-size: 15px;
+        color: black;
+        margin-right: 21px;
+    }
+    span {
+        padding-left: 25px;
+        position: relative;
+        a{
+           color: $pink; 
+        }
+        &::before {
+            content: '';
+            background-image: url(../images/slider/icon-1.png);
+            width: 16px;
+            height: 16px;
+            left: 0;
+            top: 2px;
+            position: absolute;
+        }
+    }
+}
+
+.content__text {
+    color: #555555;
+    line-height: 30px;
+    margin-bottom: 29px;
+}
+
+.content__tegs {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 1px solid #ececec;
+    a {
+        background-color: #f1f3f6;
+        font-size: 15px;
+        color: #868c96;
+        padding: 6px 13px;
+        border-radius: 29px;
+        margin-bottom: 45px;
+        transition: all .3s;
+        & + a {
+            margin-left: 7px;
+        }
+        &:hover {
+            background-color: $blue;
+            color: #fff;
+        }
+    }
+}
+
+.content__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 23px;
+    &-price {
+        background-color: $blue;
+        padding: 9px 19px;
+        font-weight: 500;
+        font-size: 15px;
+        border-radius: 33px;
+        margin-right: 19px;
+    }
+    &-num {
+        margin-right: auto;
+        padding-left: 26px;
+        color: black;
+        font-size: 15px;
+        position: relative;
+        &::before {
+            content: '\f08a';
+            font-family: 'icomoon';
+            position: absolute;
+            left: 0;
+            font-size: 16px;
+            color: $pink;
+        }
+        span {
+            margin-left: 15px;
+            padding-left: 23px;
+            position: relative;
+            color: $blue;
+            &::before {
+                content: '\e900';
+                font-family: 'icomoon';
+                left: 0;
+                position: absolute;
+                font-size: 15px;
+                color: $blue;
+            }
+        }
+        &-star {
+            font-size: 17px;
+            color:black
+        }
+    }
+}
+
+.jq-ry-normal-group.jq-ry-group {
+    display: none;
+}
+
+.slick-arrow {
+	width: 55px;
+	height: 45px;
+	background-color: $pink;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+}
+
+.slick-prev {
+    border-radius: 45px 0 0 45px;
+    top: -133px;
+    right: 85px;
+}
+
+.slick-next {
+    border-radius: 0 45px 45px 0;
+    top: -133px;
+    right: 30px;
+}
+
+// end slider
+
+
 
