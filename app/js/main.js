@@ -14,5 +14,7 @@ $(function(){
         prevArrow: '<button class="slick-arrow slick-prev"><img src="images/slider/slide-left.png" alt=""></button>',
         nextArrow: '<button class="slick-arrow slick-next"><img src="images/slider/slide-right.png" alt=""></button>'
     });
+
+    var mixer = mixitup('.products__inner-items');
     
 });
