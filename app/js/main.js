@@ -16,5 +16,15 @@ $(function(){
     });
 
     var mixer = mixitup('.products__inner-items');
+
+    $('.feed__inner-items').slick({
+        dots: false,
+        arrows: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        variableWidth: true,
+        prevArrow: '<button class="slick-arrow slick-prev"><img src="images/slider/slide-left.png" alt=""></button>',
+        nextArrow: '<button class="slick-arrow slick-next"><img src="images/slider/slide-right.png" alt=""></button>'
+    });
     
 });
