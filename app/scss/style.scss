@@ -805,3 +805,169 @@
 }
 
 // end fact
+
+// start advantages
+
+.advantages {
+    background-color: #fefefe;
+    &__inner {
+        padding: 120px 0 90px;
+        &-title {
+            text-align: center;
+            color: #000;
+            font-size: 36px;
+            width: 680px;
+            margin: 0 auto;
+            margin-bottom: 64px;
+            span {
+                color: $blue;
+            }
+            .advantages__title-text {
+                font-size: 16px;
+                color: #555555;
+                line-height: 30px;
+                margin-top: 28px;
+            }
+        }
+        &-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .advantages__item {
+                max-width: 360px;
+                width: 100%;
+                padding: 55px 34px 60px;
+                text-align: center;
+                position: relative;
+                background-color: #fff;
+                border-radius: 4px;
+                box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+                margin-bottom: 30px;
+                &-1::before {
+                    content: '01';
+                    font-size: 48px;
+                    color: #5c87f8;
+                    opacity: .2;
+                    position: absolute;
+                    top: 19px;
+                    left: 19px;
+                }&-2::before {
+                    content: '02';
+                    font-size: 48px;
+                    color: #5c87f8;
+                    opacity: .2;
+                    position: absolute;
+                    top: 19px;
+                    left: 19px;
+                }&-3::before {
+                    content: '03';
+                    font-size: 48px;
+                    color: #5c87f8;
+                    opacity: .2;
+                    position: absolute;
+                    top: 19px;
+                    left: 19px;
+                }&-4::before {
+                    content: '04';
+                    font-size: 48px;
+                    color: #5c87f8;
+                    opacity: .2;
+                    position: absolute;
+                    top: 19px;
+                    left: 19px;
+                }&-5::before {
+                    content: '05';
+                    font-size: 48px;
+                    color: #5c87f8;
+                    opacity: .2;
+                    position: absolute;
+                    top: 19px;
+                    left: 19px;
+                }&-6::before {
+                    content: '06';
+                    font-size: 48px;
+                    color: #5c87f8;
+                    opacity: .2;
+                    position: absolute;
+                    top: 19px;
+                    left: 19px;
+                }
+                &-title {
+                    font-size: 24px;
+                    color: #000;
+                    padding-top: 100px;
+                    position: relative;
+                    margin-bottom: 30px;
+                    &1::before {
+                        content: '\f2c3';
+                        font-family: 'icomoon';
+                        position: absolute;
+                        top: 0;
+                        left: 90px;
+                        right: 90px;
+                        font-size: 60px;
+                        color: $blue;
+                    }
+                    &2::before {
+                        content: '\e997';
+                        font-family: 'icomoon';
+                        position: absolute;
+                        top: 0;
+                        left: 90px;
+                        right: 90px;
+                        font-size: 60px;
+                        color: #7f4ec2;
+                    }
+                    &3::before {
+                        content: '\e901';
+                        font-family: 'icomoon';
+                        position: absolute;
+                        top: 0;
+                        left: 90px;
+                        right: 90px;
+                        font-size: 60px;
+                        color: #77de51;
+                    }
+                    &4::before {
+                        content: '\f080';
+                        font-family: 'icomoon';
+                        position: absolute;
+                        top: 0;
+                        left: 90px;
+                        right: 90px;
+                        font-size: 60px;
+                        color: #feb71d;
+                    }
+                    &5::before {
+                        content: '\e9a4';
+                        font-family: 'icomoon';
+                        position: absolute;
+                        top: 0;
+                        left: 90px;
+                        right: 90px;
+                        font-size: 60px;
+                        color: #58c9e9;
+                    }
+                    &6::before {
+                        content: '\e942';
+                        font-family: 'icomoon';
+                        position: absolute;
+                        top: 0;
+                        left: 90px;
+                        right: 90px;
+                        font-size: 60px;
+                        color: #ff6a6d;
+                    }
+                }
+                &-text {
+                    font-size: 16px;
+                    color: #555555;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+}
+
+// end advantages
+
