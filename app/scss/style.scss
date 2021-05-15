@@ -711,3 +711,97 @@
 
 
 // end feed 
+
+// start fact
+
+.fact {
+    background-color: #212225;
+    &__inner {
+        padding: 96px 0 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__box {
+        text-align: center;
+        position: relative;
+        padding-top: 93px;
+        font-size: 36px;
+        color: #feb71d;
+        span {
+            font-size: 18px;
+            color: #fff;
+        }
+        &::before {
+            content: '\f0b1';
+            font-family: 'icomoon';
+            position: absolute;
+            top: 0;
+            left: 32px;
+            font-size: 48px;
+            color: #feb71d;
+        }
+    }
+    &__box2 {
+        text-align: center;
+        position: relative;
+        padding-top: 89px;
+        font-size: 36px;
+        color: #58c9e9;
+        span {
+            font-size: 18px;
+            color: #fff;
+        }
+        &::before {
+            content: '\f0ed';
+            font-family: 'icomoon';
+            position: absolute;
+            top: 0;
+            left: 16px;
+            font-size: 48px;
+            color: #58c9e9;
+        }
+    }
+    &__box3 {
+        text-align: center;
+        position: relative;
+        padding-top: 94px;
+        font-size: 36px;
+        color: #77de51;
+        span {
+            font-size: 18px;
+            color: #fff;
+        }
+        &::before {
+            content: '\f118';
+            font-family: 'icomoon';
+            position: absolute;
+            top: 0;
+            left: 51px;
+            font-size: 48px;
+            color: #77de51;
+        }
+    }
+    &__box4 {
+        text-align: center;
+        position: relative;
+        padding-top: 89px;
+        font-size: 36px;
+        color: #ff6a6d;
+        span {
+            font-size: 18px;
+            color: #fff;
+        }
+        &::before {
+            content: '\f0c0';
+            font-family: 'icomoon';
+            position: absolute;
+            top: 0;
+            left: 26px;
+            font-size: 48px;
+            color: #ff6a6d;
+        }
+    }
+}
+
+// end fact
