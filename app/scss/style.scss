@@ -1230,3 +1230,37 @@
 }
 
 // end news
+
+// start support
+
+.support {
+    background-color: #fff;
+    &__inner {
+        padding: 60px 100px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        &-money {
+            img {
+                margin-bottom: 30px;
+            }
+            font-size: 24px;
+            color: #000;
+            span {
+                color: $blue;
+            }
+        }
+        &-friend {
+            img {
+                margin-bottom: 30px;
+            }
+            font-size: 24px;
+            color: #000;
+            span {
+                color: $pink;
+            }
+        }
+    }
+}
+
+// end support
