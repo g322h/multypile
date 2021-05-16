@@ -1264,3 +1264,36 @@
 }
 
 // end support
+
+// start banner
+
+.banner {
+    background-image: url(../images/banner/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    &__inner {
+        padding: 107.5px 0;
+        text-align: center;
+        &-title {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        &-text {
+            font-size: 18px;
+            color: #e7e7e7;
+            margin-bottom: 50px;
+        }
+        &-btn {
+            a {
+                padding: 18px 50px;
+                background-color: #e7e7e7;
+                color: $blue;
+                border-radius: 54px;
+            }
+        }
+    }
+}
+
+// end banner
