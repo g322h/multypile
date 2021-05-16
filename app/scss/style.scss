@@ -971,3 +971,168 @@
 
 // end advantages
 
+// start marketing
+
+.marketing {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        &-buy {
+            padding: 95px 185px;
+            text-align: center;
+            background-image: url(../images/marketing/bg-1.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 50%;
+            min-height: 560px;
+            img {
+                margin-bottom: 50px;
+            }
+            .buy {
+                &__title {
+                    font-size: 36px;
+                    margin-bottom: 34px;
+                }
+                &__text {
+                    font-size: 16px;
+                }
+                &__btn {
+                    background-color: #fff;
+                    padding: 19px 25px;
+                    width: 190px;
+                    margin: 50px auto 0;
+                    border-radius: 55px;
+                    a {
+                        color: $blue;
+                        font-size: 16px;
+                    }   
+                }
+            }
+        }
+        &-sell {
+            padding: 95px 185px;
+            text-align: center;
+            background-image: url(../images/marketing/bg-2.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 50%;
+            min-height: 560px;
+            img {
+                margin-bottom: 50px;
+            }
+            .sell {
+                &__title {
+                    font-size: 36px;
+                    margin-bottom: 34px;
+                }
+                &__text {
+                    font-size: 16px;
+                }
+                &__btn {
+                    background-color: #fff;
+                    padding: 19px 25px;
+                    width: 190px;
+                    margin: 50px auto 0;
+                    border-radius: 55px;
+                    a {
+                        color: $pink;
+                        font-size: 16px;
+                    }   
+                }
+            }
+        }
+    }
+}
+
+// end marketing
+
+// start feedback
+
+.feedback {
+    background-color: #fefefe;
+    &__inner {
+        padding: 120px 0;
+        &-title {
+            text-align: center;
+            color: #000;
+            font-size: 36px;
+            width: 680px;
+            margin: 0 auto;
+            margin-bottom: 60px;
+            span {
+                color: $blue;
+            }
+            .feedback__title-text {
+                font-size: 16px;
+                color: #555555;
+                line-height: 30px;
+                margin-top: 35px;
+            }
+        }
+        &-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 60px;
+            .feedback__content-box {
+                max-width: 555px;
+                width: 100%;
+                padding: 50px 40px 35px;
+                box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+                border-left: 2px solid $blue;
+                .box__author {
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                    position: relative;
+                    margin-bottom: 22px;
+                    .avatar {
+                        width: 80px;
+                        height: 80px;
+                        background-position: center;
+                        display: inline-block;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        margin-right: 19px;
+                    }
+                    &-text {
+                        font-size: 20px;
+                        color: #000;
+                        span {
+                            color: #555555;
+                            margin-top: 19px;
+                            font-size: 16px;
+                        }
+                    }
+                    &::after {
+                        content: '\f0e5';
+                        position: absolute;
+                        right: 0;
+                        top: -5;
+                        font-size: 60px;
+                        color: #e8e8e8;
+                        font-family: 'icomoon';
+                    }
+                }
+                .box__text {
+                    color: #555555;
+                    line-height: 30px;
+                }
+            }
+        }
+        &-btn {
+            text-align: center;
+            a {
+                padding: 18px 40px;
+                background-color: $blue;
+                font-size: 16px;
+                border-radius: 55px;
+            }
+        }
+    }
+}
+
+// end feedback
+
