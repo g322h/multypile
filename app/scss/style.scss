@@ -1297,3 +1297,153 @@
 }
 
 // end banner
+
+// start footer
+
+.footer {
+    &__content {
+        background-color: #262b30;
+        .footer__inner {
+            padding: 118px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .footer__col {
+                max-width: 265px;
+                width: 100%;
+                &-newsteller {
+                    max-width: 360px;
+                    width: 100%;
+                }
+                &-search {
+                    position: relative;
+                    margin-top: 27px;
+                    padding-bottom: 90px;
+                    input{
+                        min-height: 50px;
+                        width: 100%;
+                        border-radius: 50px;
+                        border: none;
+                        &:focus {
+                            outline: none;
+                        }
+                        &::placeholder {
+                           padding: 20px 30px;
+                           font-size: 15px;
+                           color: #ababab;
+                        } 
+                    }
+                    button {
+                        position: absolute;
+                        right: 0;
+                        padding: 16.5px 30px;
+                        background-color: $blue;
+                        color: #fff;
+                        border-radius: 50px;
+                        border: none;
+                        font-size: 15px;
+                    }
+                }
+                &-menu {
+                    max-width: 135px;
+                }
+                &-title {
+                    font-size: 18px;
+                    color: #ffffff;
+                    margin-bottom: 33px;
+                    margin-top: 10px;
+                }
+                &-list {
+                    a {
+                        font-size: 15px;
+                        color: #ababab;
+                        line-height: 32px;
+                    }
+                }
+                &-logo {
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                    margin-bottom: 30px;
+                    a {
+                        margin-left: 7px;
+                        font-size: 24px;
+                        font-weight: 700;
+                        span {
+                            color: $blue;
+                        }
+                    }
+                }
+                &-text {
+                    font-size: 15px;
+                    color: #ababab;
+                    line-height: 28px;
+                    margin-bottom: 13px;
+                }
+                &-phone {
+                    font-size: 15px;
+                    color: #ababab;
+                    padding-left: 29px;
+                    position: relative;
+                    margin-bottom: 22px;
+                    a {
+                        font-size: 15px;
+                        color: #ababab;
+                    }
+                    &::before {
+                        content: '\e942';
+                        font-family: 'icomoon';
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        color: #ffffff;
+                    }
+                }
+                &-mail {
+                    font-size: 15px;
+                    color: #ababab;
+                    padding-left: 30px;
+                    position: relative;
+                    margin-bottom: 22px;
+                    &::before {
+                        content: '\e904';
+                        font-family: 'icomoon';
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        color: #ffffff;
+                    }
+                }
+                &-map {
+                    font-size: 15px;
+                    color: #ababab;
+                    padding-left: 30px;
+                    position: relative;
+                    line-height: 24px;
+                    &::before {
+                        content: '\e902';
+                        font-family: 'icomoon';
+                        position: absolute;
+                        top: 11px;
+                        left: 0;
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+    }
+    &__copy {
+        background-color: #192027;
+        text-align: center;
+        &-text {
+            font-size: 15px;
+            color: #999999;
+            padding: 40px 0;
+            a {
+                color: #fff;
+            }
+        }
+    }
+}
+
+// end footer
